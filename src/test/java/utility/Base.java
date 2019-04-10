@@ -8,21 +8,19 @@ import org.testng.annotations.BeforeTest;
 import io.restassured.response.Response;
 import com.google.gson.Gson;
 
-
 public class Base {
 
-    private static String propertyFileName = "test1.properties";
-    //private static String propertuFilePath = "src/test/resources/";
-    //private static String propertyfile = propertuFilePath + propertuFileName;
+    private static String propertyFileName = "src/test/resources/test1.properties";
+
+    public Base() {
+        Helper.loadProperties(propertyFileName);
+    }
 
     @BeforeTest
     public static RequestSpecification setUp(){
+        System.out.println("inside Before test");
         RestAssured.baseURI = getBaseURL();
         return RestAssured.given();
-    }
-
-    public Base(){
-        Helper.loadProperties(propertyFileName);
     }
 
     public static String getBaseURL(){

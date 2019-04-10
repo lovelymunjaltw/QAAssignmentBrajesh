@@ -1,3 +1,5 @@
+package testcases;
+
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -38,7 +40,7 @@ public class SampleGetTest2 extends Base {
         System.out.println("\nresponseBody :" + response.getBody().asString());
         List<Map<String, String>> userId = response.jsonPath().getList("userId");
         System.out.println("\nNo. of records :" + userId.size());
-        Assert.assertEquals(8,userId.size());
+        Assert.assertEquals(7,userId.size());
     }
 
     @Test (priority = 3)

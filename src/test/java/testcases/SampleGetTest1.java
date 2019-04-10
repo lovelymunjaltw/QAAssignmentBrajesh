@@ -1,3 +1,5 @@
+package testcases;
+
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
@@ -23,6 +25,13 @@ public class SampleGetTest1 {
         int responseCode = response.getStatusCode();
         System.out.println("\nResponse code =>  \n" + responseCode);
         Assert.assertEquals(responseCode,200);
+    }
+
+    public void verifycontentType()
+    {
+        RestAssured.baseURI = "http://localhost:9000/users";
+        RequestSpecification httpRequest = RestAssured.given();
+        Response response = httpRequest.request(Method.GET);
 
         // Get headers and put assertion
         System.out.println("\nAll Headers =>  \n" + response.getHeaders());
