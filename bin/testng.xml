@@ -4,8 +4,6 @@
     <test name="test1" >
         <classes>
             <class name="SampleGetTest1" />
-            <class name="SampleGetTest2" />
-
         </classes>
     </test>
 </suite>

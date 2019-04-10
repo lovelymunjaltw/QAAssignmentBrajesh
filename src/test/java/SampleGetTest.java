@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 
 public class SampleGetTest {
 
-    @Test
     public void getDetails()
     {
         //Specify the base URL to the RESTful web service
