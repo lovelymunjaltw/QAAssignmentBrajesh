@@ -9,7 +9,7 @@ import org.testng.Assert;
 
 public class SampleGetTest1 {
 
-    @Test
+    @Test (groups= {"smoke"})
     public void verifyStatusCode()
     {
         //Specify the base URL to the RESTful web service
