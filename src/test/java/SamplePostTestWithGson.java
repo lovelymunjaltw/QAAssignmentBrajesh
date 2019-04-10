@@ -4,15 +4,13 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 import utility.Base;
 import utility.Employee;
-import utility.Location;
 
 import java.util.Arrays;
 
 public class SamplePostTestWithGson extends Base {
 
     RequestSpecification httpRequest = Base.setUp();
-    Location loc = new Location ("Haryana", "Karnal");
-    Employee emp = new Employee("testGsonPut", "ThoughtWorks", loc);
+    Employee emp = new Employee("testGsonPut2", "ThoughtWorks", "Haryana","CityABC");
 
     @Test
     public void createNewRecord() {

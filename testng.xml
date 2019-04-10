@@ -5,7 +5,7 @@
         <classes>
             <class name="SampleGetTest1" />
             <class name="SampleGetTest2" />
-
+            <class name="SamplePostTest" />
         </classes>
     </test>
 </suite>

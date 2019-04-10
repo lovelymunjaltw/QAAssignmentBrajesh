@@ -3,17 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3698c475-80f2-421c-aeeb-faa40d391f4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SampleGetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleGetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SampleGetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SampleGetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SampleGetTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SampleGetTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SampleGetTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleGetTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SamplePostTestWithGson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SamplePostTestWithGson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SamplePutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SamplePutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utility/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utility/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utility/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utility/Location_backup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SampleGetTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SampleGetTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SamplePostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SamplePostTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SamplePostTestWithGson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SamplePostTestWithGson.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SamplePutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SamplePutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utility/Base.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utility/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utility/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utility/Helper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utility/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utility/Location.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -27,6 +25,9 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/apiautomationrest$_Users_lovely_munjal_Downloads_apiautomationrest_target_surefire_reports_Suite1_testng_failed_xml.ic" NAME="$PROJECT_DIR$/target/surefire-reports/Suite1/testng-failed.xml Coverage Results" MODIFIED="1554901953967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1482323597">
@@ -44,122 +45,53 @@
           <entry key="class" value="2" />
           <entry key="classpath" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="81" />
+          <entry key="java" value="86" />
           <entry key="project" value="1" />
-          <entry key="properties" value="20" />
-          <entry key="xml" value="9" />
+          <entry key="properties" value="21" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Eclipse" value="2" />
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="81" />
+          <entry key="JAVA" value="86" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="20" />
+          <entry key="Properties" value="21" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="26" />
+          <entry key="dummy" value="33" />
           <entry key="gitignore" value="22" />
-          <entry key="java" value="4880" />
+          <entry key="java" value="5024" />
           <entry key="properties" value="45" />
-          <entry key="xml" value="56" />
+          <entry key="xml" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4880" />
-          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="JAVA" value="5024" />
+          <entry key="PLAIN_TEXT" value="55" />
           <entry key="Properties" value="45" />
-          <entry key="XML" value="56" />
+          <entry key="XML" value="69" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SamplePostTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utility/Location.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SamplePutTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -225,17 +157,18 @@
         <option value="$PROJECT_DIR$/src/test/java/utility/SamplePostTestt.java" />
         <option value="$PROJECT_DIR$/src/test/java/SamplePostTestt.java" />
         <option value="$PROJECT_DIR$/src/test/java/SamplePostTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SampleGetTest2.java" />
         <option value="$PROJECT_DIR$/src/test/java/utility/Location.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SamplePutTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SamplePostTestu.java" />
         <option value="$PROJECT_DIR$/src/test/java/utility/Base.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utility/Employee.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SamplePostTestWithGson.java" />
         <option value="$PROJECT_DIR$/src/test/java/SampleGetTest.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SampleGetTest2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utility/Location_backup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SamplePutTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utility/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SamplePostTestWithGson.java" />
       </list>
     </option>
   </component>
@@ -263,7 +196,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="54" />
     <option name="y" value="23" />
     <option name="width" value="1386" />
@@ -305,7 +238,19 @@
             <path>
               <item name="apiautomationrest" type="b2602c69:ProjectViewProjectNode" />
               <item name="apiautomationrest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiautomationrest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiautomationrest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+              <item name="Employee.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -352,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/lovely.munjal/Downloads/apiautomationrest/testng.xml">
+  <component name="RunManager" selected="TestNG.SamplePostTestWithGson">
     <configuration name="SampleGetTest1.verifyStatusCode" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="apiautomationrest" />
       <option name="PACKAGE_NAME" value="" />
@@ -365,12 +310,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleGetTest2.verifyState" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SamplePostTestWithGson" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="apiautomationrest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleGetTest2" />
-      <option name="METHOD_NAME" value="verifyState" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="SamplePostTestWithGson" />
       <properties />
       <listeners />
       <method v="2">
@@ -419,12 +362,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SamplePutTest.updateRecord" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="apiautomationrest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SamplePutTest" />
-      <option name="METHOD_NAME" value="updateRecord" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration name="/Users/lovely.munjal/Downloads/apiautomationrest/target/surefire-reports/Suite1/testng-failed.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/target/surefire-reports/Suite1/testng-failed.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -443,19 +383,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.SamplePostTest.GetDetails" />
-      <item itemvalue="TestNG.SamplePutTest.updateRecord" />
-      <item itemvalue="TestNG.SampleGetTest2.verifyState" />
       <item itemvalue="TestNG.SampleGetTest1.verifyStatusCode" />
       <item itemvalue="TestNG.SamplePostTestWithGson.createNewRecord" />
       <item itemvalue="TestNG./Users/lovely.munjal/Downloads/apiautomationrest/testng.xml" />
+      <item itemvalue="TestNG./Users/lovely.munjal/Downloads/apiautomationrest/target/surefire-reports/Suite1/testng-failed.xml" />
+      <item itemvalue="TestNG.SamplePostTestWithGson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SamplePostTestWithGson" />
+        <item itemvalue="TestNG./Users/lovely.munjal/Downloads/apiautomationrest/target/surefire-reports/Suite1/testng-failed.xml" />
         <item itemvalue="TestNG./Users/lovely.munjal/Downloads/apiautomationrest/testng.xml" />
         <item itemvalue="TestNG.SamplePostTestWithGson.createNewRecord" />
         <item itemvalue="TestNG.SamplePostTestWithGson.createNewRecord" />
-        <item itemvalue="TestNG.SamplePutTest.updateRecord" />
-        <item itemvalue="TestNG.SampleGetTest1.verifyStatusCode" />
       </list>
     </recent_temporary>
   </component>
@@ -473,32 +413,11 @@
       <workItem from="1554747615080" duration="15041000" />
       <workItem from="1554824125435" duration="13110000" />
       <workItem from="1554896758250" duration="248000" />
-      <workItem from="1554899290943" duration="1912000" />
+      <workItem from="1554899290943" duration="3470000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SamplePostTestu_createNewRecord - 2019.04.10 at 09h 45m 07s.xml">
-      <configuration name="SamplePostTestu.createNewRecord" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SampleGetTest2_verifyState - 2019.04.10 at 11h 49m 25s.xml">
-      <configuration name="SampleGetTest2.verifyState" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SampleGetTest1_verifyStatusCode - 2019.04.10 at 11h 49m 40s.xml">
-      <configuration name="SampleGetTest1.verifyStatusCode" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SamplePostTestu_createNewRecord - 2019.04.10 at 11h 53m 19s.xml">
-      <configuration name="SamplePostTestu.createNewRecord" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SamplePutTest_updateRecord - 2019.04.10 at 11h 54m 11s.xml">
-      <configuration name="SamplePutTest.updateRecord" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SamplePostTestu_createNewRecord_(1) - 2019.04.10 at 11h 55m 38s.xml">
-      <configuration name="SamplePostTestu.createNewRecord (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SamplePostTestu_createNewRecord - 2019.04.10 at 11h 56m 56s.xml">
-      <configuration name="SamplePostTestu.createNewRecord" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_lovely_munjal_Downloads_apiautomationrest_testng_xml - 2019.04.10 at 18h 00m 52s.xml">
       <configuration name="/Users/lovely.munjal/Downloads/apiautomationrest/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -508,32 +427,54 @@
     <history-entry file="_Users_lovely_munjal_Downloads_apiautomationrest_testng_xml - 2019.04.10 at 18h 15m 45s.xml">
       <configuration name="/Users/lovely.munjal/Downloads/apiautomationrest/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_lovely_munjal_Downloads_apiautomationrest_testng_xml - 2019.04.10 at 18h 37m 21s.xml">
+      <configuration name="/Users/lovely.munjal/Downloads/apiautomationrest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_lovely_munjal_Downloads_apiautomationrest_testng_xml - 2019.04.10 at 18h 39m 42s.xml">
+      <configuration name="/Users/lovely.munjal/Downloads/apiautomationrest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_lovely_munjal_Downloads_apiautomationrest_testng_xml - 2019.04.10 at 18h 40m 40s.xml">
+      <configuration name="/Users/lovely.munjal/Downloads/apiautomationrest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_lovely_munjal_Downloads_apiautomationrest_target_surefire-reports_Suite1_testng-failed_xml - 2019.04.10 at 18h 42m 42s.xml">
+      <configuration name="/Users/lovely.munjal/Downloads/apiautomationrest/target/surefire-reports/Suite1/testng-failed.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_lovely_munjal_Downloads_apiautomationrest_target_surefire-reports_Suite1_testng-failed_xml - 2019.04.10 at 18h 43m 17s.xml">
+      <configuration name="/Users/lovely.munjal/Downloads/apiautomationrest/target/surefire-reports/Suite1/testng-failed.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SamplePostTestWithGson - 2019.04.10 at 21h 36m 02s.xml">
+      <configuration name="SamplePostTestWithGson" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SamplePostTestWithGson - 2019.04.10 at 21h 36m 30s.xml">
+      <configuration name="SamplePostTestWithGson" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44946000" />
+    <option name="totallyTimeSpent" value="46504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1386" height="877" extended-state="0" />
+    <frame x="54" y="23" width="1386" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21205357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2313988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.44568452" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.13375796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299363" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.55431545" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3296131" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -597,13 +538,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Base1.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/utility/Base2.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest3.java" />
-    <entry file="file://$PROJECT_DIR$/test1.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SamplePutTestWithGson.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -612,16 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -638,20 +562,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utility/Employee.java">
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.out.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/old/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SamplePostTestWithGson.java">
+    <entry file="file://$PROJECT_DIR$/apiautomationrest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -665,77 +598,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utility/Location.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/Suite1/test1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/Suite1/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/Suite1/testng-failed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utility/Location_backup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SamplePutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        <state relative-caret-position="255">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utility/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.out.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/old/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="420">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apiautomationrest.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SamplePostTestWithGson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SampleGetTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="195">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

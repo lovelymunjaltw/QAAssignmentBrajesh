@@ -38,7 +38,7 @@ public class SampleGetTest2 extends Base {
         System.out.println("\nresponseBody :" + response.getBody().asString());
         List<Map<String, String>> userId = response.jsonPath().getList("userId");
         System.out.println("\nNo. of records :" + userId.size());
-        Assert.assertEquals(5,userId.size());
+        Assert.assertEquals(8,userId.size());
     }
 
     @Test (priority = 3)
