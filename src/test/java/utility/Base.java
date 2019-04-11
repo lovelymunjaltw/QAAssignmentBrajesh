@@ -26,6 +26,15 @@ public class Base {
         return Helper.getPropertyValue("base-url");
     }
 
+    public static String getUserName(){
+        return Helper.getPropertyValue("username");
+    }
+
+    public static String getPassword(){
+        return Helper.getPropertyValue("password");
+    }
+
+
     public static String getContentType (Response response){
         return response.getHeader("Content-Type");
     }
@@ -39,4 +48,6 @@ public class Base {
         String json = gson.toJson(emp);
         return json;
     }
+
+
 }
