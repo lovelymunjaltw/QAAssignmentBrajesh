@@ -18,7 +18,6 @@ public class Base {
 
     @BeforeTest
     public static RequestSpecification setUp(){
-        System.out.println("inside Before test");
         RestAssured.baseURI = getBaseURL();
         return RestAssured.given();
     }
