@@ -44,17 +44,6 @@ public class SampleGetTest2 extends Base {
     }
 
     @Test (priority = 3)
-    public void verifyNamePresent()
-    {
-        Response response = httpRequest.request(Method.GET, "/users");
-        //Get list of names inside list of Map
-        List<Map<String, String>> names = response.jsonPath().getList("userName");
-        System.out.println("\n'first Name' in first record :" + names.get(0)); //Get any name from List of names
-        boolean b =  names.contains("Dan"); // will return true if List contain value "Dan"
-        Assert.assertEquals(b,true);// verify whether list contain name: "Dan"
-    }
-
-    @Test (priority = 3)
     public void verifyState()
     {
         Response response = httpRequest.request(Method.GET, "/users");
@@ -63,5 +52,16 @@ public class SampleGetTest2 extends Base {
         String state = locations.get("state");
         System.out.println("\nState of 1st locations: " + state);
         Assert.assertEquals(state,"California");
+    }
+
+    @Test (priority = 4)
+    public void verifyNamePresent()
+    {
+        Response response = httpRequest.request(Method.GET, "/users");
+        //Get list of names inside list of Map
+        List<Map<String, String>> names = response.jsonPath().getList("userName");
+        System.out.println("\n'first Name' in first record :" + names.get(0)); //Get any name from List of names
+        boolean b =  names.contains("Dan"); // will return true if List contain value "Dan"
+        Assert.assertEquals(b,true);// verify whether list contain name: "Dan"
     }
 }
